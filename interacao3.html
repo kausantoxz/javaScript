@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> java script </title>
+    <style>
+        body {
+            background-color: beige;
+            text-align: center;
+            color: rgb(76, 123, 211);
+            font-family: 'Courier New', Courier, monospace;
+        
+        }
+        button{
+            background-color: dimgray;
+            border-bottom: 100px;
+            border: 100px;
+        }
+        section {
+            background-color: rgb(92, 129, 209);
+            position: absolute;
+            top: 30%;
+            left: 50%;
+
+            transform: translate(-50% );
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+        }
+    </style>
+
+ </head>
+<body>
+    <h1> java script</h1>
+    <button onclick=" inicio ()">clique aqui </button>
+
+    <section id="resulatdo">
+        <p>o resultado irá aparecer aqui</p>
+     
+    </section>
+
+    <script>
+        function inicio() {
+           let curso = window.prompt ('qual o nome do seu curso?')
+           let res = window.document.getElementById ('resultado')
+           res.innerHTML = `<p>que legal! gostei de saber que voce estuda ${curso} `
+        }
+    </script>
+</body>
+</html>
