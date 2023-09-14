@@ -41,20 +41,19 @@ body {
 
  </head>
 <body>
-    <h1> java script</h1>
-    <button onclick=" inicio ()">clique aqui </button>
+    <h1> calculadora </h1>
+    <br><br>
+        <button onclick="adicao()"> adição </button>
+        <button onclick="subtracao()">subtração</button>
+        <button onclick="multiplicacao()">multiplicação</button>
+        <button onclick="divisao( )">divisão</button>
+  
+
 
     <section id="resultado">
         <p>o resultado irá aparecer aqui</p> 
     </section>
-        <script>
-         function inicio() {
-           let curso = window.prompt ('qual o nome do seu curso?')
-           let res = window.document.getElementById ('resultado')
-           res.innerHTML = `<p>que legal! gostei de saber que voce estuda ${curso}, muito bacana`
-         }
-
-        </script>
+       <script src="calc.js"></script>
     
 </body>
 </html>
