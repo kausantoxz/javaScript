@@ -1,0 +1,32 @@
+body{
+    background-color:beige;
+    font:  normal 15pt arial;
+}
+header{
+  
+color: rgb(1, 107, 177);
+text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+section{
+    background-color: rgb(32, 107, 247);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:3px 3px 10px rgba (0, 0, 0, 0.363);
+
+}
+
+footer{
+    
+     color: rgb(1, 107, 177);
+    text-align: center;
+    font-style: italic;
+}
